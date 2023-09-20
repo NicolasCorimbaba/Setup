@@ -1,0 +1,166 @@
+body {
+    color: #262626;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 755px;
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    column-gap: 2px;
+    margin: 29px auto 0;
+}
+
+.pitch {
+    height: 645px;
+    position: relative;
+    background: url(midia/celularback.png) no-repeat center;
+}
+.celular {
+    position: absolute;
+    top: 30px;
+    left: 140px;
+}
+
+form {
+    text-align: center;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: #FFFFFF;
+    padding: 20px 45px;
+}
+
+.logo {
+    padding-bottom: 45px;
+    padding-top: 45px;
+
+}
+
+.input {
+    height: 36px;
+    color: #262626;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    background-color: #FAFAFA;
+    margin-bottom: 9px;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.button {
+    width: 100%;
+    color: #FAFAFA;
+    font-weight: bold;
+    appearance: none;
+    height: 30px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #0095F6;
+    margin-top: 12px;
+
+}
+
+.separator {
+    font-size: 12px;
+    color: #737373;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 16px 16px;
+    display: flex;
+    align-items: center;
+}
+  
+
+.login {
+    color: #385185;
+    font-weight: bold;
+    margin: 0 auto 18px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.senha {
+    color: #385185;
+    font-size: 12px;
+}
+
+.sign {
+    margin-top: 10px;
+    border: 1px solid #dbdbdb;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+.signup {
+    color: #0095F6;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.getapp {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+.png {
+    width: 136px;
+}
+
+.png2 {
+    width: 136px;
+}
+
+.rodape {
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.links {
+    font-size: 12px;
+    color: #737373;
+    text-align: center;
+    margin-bottom: 10px;
+ 
+}
+
+a {
+    color: #737373;
+    margin: 5px;
+
+}
+.copy {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 13px;
+    color: #737373;
+}
+
+.othersoptions{
+    display: flex;
+    align-items: center;
+}
+
+.line1, .line2{
+    width: 100px;
+}
